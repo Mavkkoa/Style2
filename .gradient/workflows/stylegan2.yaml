@@ -31,5 +31,4 @@ jobs:
     with:
       script: |-
         nvidia-smi
-        lspu
       image: tensorflow/tensorflow:1.14.0-gpu-py3
